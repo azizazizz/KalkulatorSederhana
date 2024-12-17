@@ -1,0 +1,90 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10sp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/KalkulatorSederhana"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kalkulator Sederhana\n"
+        android:textAlignment="center"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/Angka1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Angka Pertama" />
+
+    <EditText
+        android:id="@+id/ed_angka1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Angka1"
+        android:ems="10"
+        android:inputType="number|numberDecimal" />
+
+    <TextView
+        android:id="@+id/Angka2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ed_angka1"
+        android:text="Angka Kedua" />
+
+    <EditText
+        android:id="@+id/ed_angka2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Angka2"
+        android:ems="10"
+        android:inputType="number|numberDecimal" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_tambah"
+        android:text="Hasil" />
+
+    <EditText
+        android:id="@+id/ed_hasil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView3"
+        android:ems="10"
+        android:inputType="number|numberDecimal" />
+
+    <Button
+        android:id="@+id/btn_tambah"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ed_angka2"
+        android:background="@android:color/holo_green_dark"
+        android:drawableLeft="@android:drawable/ic_input_add"
+        android:text="Tambah" />
+
+    <Button
+        android:id="@+id/btn_kurang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_red_dark"
+        android:drawableLeft="@android:drawable/ic_input_delete"
+        android:text="kurang" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:text="By Nur Aziz Raihan" />
+    </RelativeLayout>
+
+</LinearLayout>

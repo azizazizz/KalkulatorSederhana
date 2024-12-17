@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="ed_angka2" type="id" />
+    <item name="ed_hasil" type="id" />
+    <item name="btn_tambah" type="id" />
+    <item name="btn_kurang" type="id" />
+    <item name="ed_angka1" type="id" />
+</resources>
